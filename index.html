@@ -20,70 +20,7 @@
             text-align: center;
             color: rgb(228, 82, 15);
             font-size: 50px;
-            margin: 9px;<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contador</title>
-    <style>
-        body{
-            height: 100vh;
-            box-sizing: border-box;
-            background-image: url(https://static7.depositphotos.com/1025323/740/i/600/depositphotos_7404628-stock-photo-digital-universe.jpg);
-            background-repeat:no-repeat ;
-            background-size: cover;
-            display: grid;
-            place-items: center;
-            margin: 0%;
-        }
-        p{
-            text-align: center;
-            color: rgb(228, 82, 15);
-            font-size: 50px;
             margin: 9px;
-            font-weight: bold;
-        }
-        .calculadora button{
-            background-color: rgb(212, 92, 23);
-            font-family: serif;
-            font-weight: bold;
-            font-size: 15px;
-            color: antiquewhite;
-        }
-    </style>
-</head>
-<body>
-    <div class="calculadora">
-        <p id="numero" >0</p>
-        <button onclick="somar()" >mais</button>
-        <button onclick="zerar()" >zerar</button>
-        <button onclick="menos()" >menos</button>
-    </div>
-    <script>
-        const p = document.getElementById("numero")
-        
-        function somar() {
-            var v = parseInt(p.innerText)
-            v += 1
-            p.innerText = v
-        }
-        function zerar() {
-            var v = parseInt(p.innerText)
-            v = 0
-            p.innerText = v
-        }
-        function menos() {
-            var v = parseInt(p.innerText)
-            v -= 1
-            p.innerText = v
-        }
-       
-
-    </script>
-</body>
-</html>
             font-weight: bold;
         }
         .calculadora button{
